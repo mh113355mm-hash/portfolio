@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Mohammed Shikialdin</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="header-inner container">
+      <div class="logo" id="logo">
+        <a href="#" aria-label="Go to homepage">
+          <img src="pic/1.png" alt="Website logo" width="120">
+        </a>
+      </div>
+
+      <!-- Nav toggle for small screens -->
+      <button class="nav-toggle" aria-controls="main-navigation" aria-expanded="false" aria-label="Open menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="main-navigation" class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a role="menuitem" href="#about">About</a></li>
+          <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+          <li role="none"><a role="menuitem" href="#experience">Experience</a></li>
+          <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a class="contact-btn" href="mailto:ttp.mo.alshiki@gmail.com" aria-label="Send email to Mohammed">ttp.mo.alshiki@gmail.com</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN HERO / INTRO -->
+  <main id="main-content" class="main" role="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <p class="intro-line" id="hero-title">
+          <strong>My name is Mohammed Shikialdin Hassan.</strong>
+          <br>
+          <strong>I’m studying Information Technology at Comboni College.</strong>
+        </p>
+        <br>
+
+        <h1 class="main-title" aria-hidden="false">
+          <span class="main-role">Programmer</span>
+          <span class="secondary-role">& Designer</span>
+        </h1>
+
+        <p class="location-line">Resident in <strong>Seeta, Uganda</strong></p>
+
+        <div class="profile-image" aria-hidden="false">
+          <img src="pic/Untitled design1.png" alt="Profile photo of Mohammed Shikialdin">
+        </div>
+
+        <div class="hero-ctas" role="group" aria-label="Hero actions">
+          <a class="btn primary-cta" href="#projects">View Projects</a>
+          <a class="btn secondary-cta" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about container" aria-labelledby="about-title">
+      <h2 id="about-title">About Me</h2>
+      <p>
+        I am an Information Technology student at Comboni College, passionate about building a strong career in Network Security.
+        My goal is to become a skilled Network Security, and I am actively developing myself in networking, programming, design, and cybersecurity.
+        I focus on continuous learning, hands-on practice, and building real projects that strengthen my professional journey.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills container" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+
+      <ul class="skill-list" aria-label="List of skills">
+        <li>Networking Fundamentals</li>
+        <li>Web Development (HTML, CSS, JavaScript)</li>
+        <li>UI/UX Design</li>
+        <li>Cybersecurity Basics</li>
+        <li>Problem Solving</li>
+        <li>Teamwork & Communication</li>
+        <li>Branding & Visual Identity</li>
+        <li>Linux Basics</li>
+        <li>Database Understanding (MySQL / phpMyAdmin)</li>
+      </ul>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience container" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <p>Currently no formal work experience, but I am actively learning, practicing, and working on self-driven and academic projects.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects container" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+
+      <ul class="project-list">
+        <li>
+          <h3>Baytak Real Estate Platform — Graduation Project</h3>
+          <p>A real estate website focused on listing, categorizing, and managing property advertisements. Built using HTML, CSS, JavaScript, and later integrated with PHP and a structured database. Designed with a clean UI and improved UX to support search, filtering, and a modern user experience.</p>
+        </li>
+
+        <li>
+          <h3>Clothing Brand Identity — Creative Branding Project</h3>
+          <p>A full visual brand identity for a clothing business, including logo design, color palette, typography, and brand guidelines. Focused on delivering a modern, minimal, and cohesive design theme.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact container" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+
+      <form id="contact-form" class="contact-form" aria-label="Contact form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required aria-required="true" autocomplete="name">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required aria-required="true" autocomplete="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit" id="send-btn" class="btn primary-cta">Send Message</button>
+      </form>
+
+      <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner container">
+      <div class="footer-copyright">
+        <p>© <span id="year"></span> Mohammed Shikialdin — LinkedIn: <a href="https://www.linkedin.com/in/mohammed-shikialdin-7a1829379" target="_blank" rel="noopener noreferrer">Profile</a></p>
+      </div>
+      <div class="social-icons" aria-label="Social profiles">
+        <a href="https://www.facebook.com/share/17tJ1WqznB/" target="_blank" class="social-icon social-facebook" aria-label="فيسبوك — Facebook profile">
+          <span class="icon" aria-hidden="true"><i class="fab fa-facebook-f"></i></span>
+          <span class="label">فيسبوك</span>
+        </a>
+
+        <a href="https://www.instagram.com/ttp_moh/?utm_source=ig_web_button_share_sheet" target="_blank" class="social-icon social-instagram" aria-label="انستجرام — Instagram profile">
+          <span class="icon" aria-hidden="true"><i class="fab fa-instagram"></i></span>
+          <span class="label">انستجرام</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
