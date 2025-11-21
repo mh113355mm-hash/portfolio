@@ -63,7 +63,7 @@ body{
   background: transparent; /* start transparent and switch on scroll */
   backdrop-filter: blur(3px);
   z-index: 120;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 .site-header.scrolled{ background: rgba(33,37,41,0.92); border-bottom-color: rgba(255,255,255,0.06); }
 .header-inner{
@@ -101,6 +101,9 @@ body{
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  color: #ffffff; /* make the ☰ character white */
+  font-size: 20px; /* increase size for visibility */
+  line-height: 1;
 }
 .hamburger{
   background: var(--text);
